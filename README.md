@@ -87,6 +87,12 @@ python demo.py configs/culane.py --test_model path_to_culane_18.pth
 python demo.py configs/tusimple.py --test_model path_to_tusimple_18.pth
 ```
 
+# Demo on Custom Video
+```Shell
+python test_custom.py configs/culane.py --test_model path_to_culane_model --video_path path_to_video
+```
+[link to culane_model](https://drive.google.com/u/0/uc?id=1lRwqeRjBhXSkkNb0kjfokRZZg82b3jC8&export=download)
+
 Since the testing set of Tusimple is not ordered, the visualized video might look bad and we **do not recommend** doing this.
 
 # Speed
