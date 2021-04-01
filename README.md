@@ -88,6 +88,11 @@ python demo.py configs/tusimple.py --test_model path_to_tusimple_18.pth
 ```
 
 # Demo on Custom Video
+install required library
+```Shell
+pip install -r requirements.txt
+```
+
 ```Shell
 python test_custom.py configs/culane.py --test_model path_to_culane_model --video_path path_to_video
 ```
