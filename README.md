@@ -98,8 +98,6 @@ python test_custom.py configs/culane.py --test_model path_to_culane_model --vide
 ```
 [link to culane_model](https://drive.google.com/u/0/uc?id=1lRwqeRjBhXSkkNb0kjfokRZZg82b3jC8&export=download)
 
-Since the testing set of Tusimple is not ordered, the visualized video might look bad and we **do not recommend** doing this.
-
 # Speed
 To test the runtime, please run
 ```Shell
